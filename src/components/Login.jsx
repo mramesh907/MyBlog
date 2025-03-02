@@ -65,6 +65,15 @@ const Login = () => {
                         return emailRegex.test(value) || "Invalid email format";
                     }
                 })} />
+                <Input 
+                placeholder="Enter your Password"
+                label="Password" 
+                type='password'
+                {...register("password",{required:true})} />
+                <Button
+                type="submit"
+                className="w-full"
+                >Sign in</Button>
             </div>
           </form>
         </div>

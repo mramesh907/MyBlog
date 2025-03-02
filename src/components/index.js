@@ -5,4 +5,4 @@ import Container from "../components/container/Container"
 import Logo from "../components/Logo"
 import Button from "./Button"
 import Input from "./Input"
-export { Header, Footer, Container, Logo, Logout }
+export { Header, Footer, Container, Logo, Logout, Button, Input }
